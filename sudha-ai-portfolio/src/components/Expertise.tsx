@@ -16,7 +16,7 @@ function Expertise() {
         <div className="skills-grid">
           {training.map((item, index) => (
             <div className="skill" key={index}>
-              <FontAwesomeIcon icon={item.icon} size="3x"/>
+             <FontAwesomeIcon icon={[faWandMagicSparkles, faRobot, faChartLine][index]} size="3x"/>
               <h3>{item.title}</h3>
               <p>{item.text}</p>
               <div className="flex-chips">
