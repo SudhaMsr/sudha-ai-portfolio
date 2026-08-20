@@ -40,25 +40,12 @@ function App() {
       />
 
       <FadeIn transitionDuration={500}>
-        {/* Hero */}
         <Main />
-
-        {/* Training / Expertise */}
         <Expertise />
-
-        {/* Professional Experience */}
         <Timeline />
-
-        {/* Selected Projects */}
         <Project />
-
-        {/* Education */}
         <Education />
-
-        {/* Awards & Volunteering */}
         <Recognition />
-
-        {/* Contact */}
         <Contact />
       </FadeIn>
 
