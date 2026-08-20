@@ -12,7 +12,7 @@ function Main() {
       <div className="about-section">
 
         <div className="hero-badge">
-          AI & DATA SCIENCE | ML | APPLIED AI
+          MACHINE LEARNING | DATA SCIENCE | COMPUTER VISION
         </div>
 
         <img
@@ -59,7 +59,7 @@ function Main() {
           </h1>
 
           <p>
-            Machine Learning Engineer | Applied AI & Data Scientist
+            Machine Learning Engineer | AI & Data Science 
           </p>
 
           <div className="hero-intro">
