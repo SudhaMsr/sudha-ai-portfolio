@@ -61,7 +61,7 @@ function Navigation({ parentToChild, modeChange }: any) {
       <CssBaseline />
       <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? " scrolled" : ""}`}>
         <Toolbar className="navigation-bar">
-          <a className="nav-brand" href="#home">Sudha Rani</a>
+        
           <IconButton color="inherit" aria-label="open drawer" edge="start" onClick={handleDrawerToggle} sx={{ mr: 2, display: { sm: "none" } }}>
             <MenuIcon />
           </IconButton>
