@@ -1,0 +1,82 @@
+.recognition-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.recognition-card {
+  position: relative;
+  padding: 30px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.025);
+
+  &:hover {
+    border-color: rgba(180, 255, 80, 0.4);
+  }
+
+  h3 {
+    margin: 18px 0 6px;
+  }
+
+  h4 {
+    margin: 0 0 15px;
+    opacity: 0.65;
+    font-size: 0.9rem;
+  }
+
+  p {
+    line-height: 1.7;
+    opacity: 0.8;
+  }
+}
+
+.recognition-number,
+.volunteering-index {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  opacity: 0.5;
+}
+
+.volunteering-heading {
+  margin-top: 100px;
+}
+
+.volunteering-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.volunteering-item {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 20px;
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+
+  h3 {
+    margin: 0 0 5px;
+  }
+
+  h4 {
+    margin: 0 0 10px;
+    opacity: 0.6;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.7;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 768px) {
+  .recognition-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .volunteering-item {
+    grid-template-columns: 40px 1fr;
+  }
+}
