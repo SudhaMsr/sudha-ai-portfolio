@@ -21,7 +21,6 @@ const navItems = [
   ["Training", "training"],
   ["Experience", "history"],
   ["Projects", "projects"],
-  ["Writing", "writing"],
   ["Contact", "contact"],
 ];
 
